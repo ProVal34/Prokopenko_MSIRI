@@ -432,6 +432,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &905576355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 905576357}
+  - component: {fileID: 905576356}
+  m_Layer: 0
+  m_Name: 12345
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &905576356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905576355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fac87432be74424586b064cc4970136, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Bankworker
+  bankuser: {fileID: 1723225843}
+--- !u!4 &905576357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905576355}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.57133, y: -0.51282, z: -1.06203}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1723225842
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,6 +506,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e85f72e3055180542aad43b971f59265, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mytutorial
+  bankuser: "\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440"
+  polucheno: 100
+  ostatok: 600
 --- !u!4 &1723225844
 Transform:
   m_ObjectHideFlags: 0
@@ -484,3 +532,4 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 1723225844}
+  - {fileID: 905576357}
